@@ -3,7 +3,7 @@ import json
 import streamlit as st
 
 print("** Loading API Key")
-ai.api_key = "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"
+ai.api_key = "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"
 
 # st.title("")
 st.markdown("# Cognavi - Job Description Generator")
