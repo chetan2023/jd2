@@ -17,7 +17,7 @@ with st.sidebar:
 
     # tone_used = st.selectbox('Tone',('Casual','Friendly','Professional','Formal'))
 
-    if model_used == 'text-davinci-002':
+    if model_used == 'text-davinci-003':
         st.markdown("""[Davinci](https://beta.openai.com/docs/models/davinci) is the most capable model family and can perform any task the other 
         models can perform and often with less instruction. For applications requiring a lot of 
         understanding of the content, like summarization for a specific audience and creative content
