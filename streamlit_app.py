@@ -4,7 +4,7 @@ import streamlit as st
 
 
 [my_cool_secrets]
-things_i_like = ["Cognavi", "AI"]
+things_i_like = ["Cognavi-AI"]
 st.write("My cool secrets:", st.secrets["my_cool_secrets"]["things_i_like"])
 
 print("** Loading API Key")
