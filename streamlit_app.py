@@ -2,6 +2,11 @@ import openai as ai
 import json
 import streamlit as st
 
+
+[my_cool_secrets]
+things_i_like = ["Cognavi", "AI"]
+st.write("My cool secrets:", st.secrets["my_cool_secrets"]["things_i_like"])
+
 print("** Loading API Key")
 ai.api_key = "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"
 
